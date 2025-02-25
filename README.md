@@ -1,11 +1,11 @@
 
-## Employee CRUD Operation Full Stack Project
+# Employee CRUD Operation Full Stack Project
 
-# Project Overview
+## Project Overview
 
 This project is a Full Stack Employee Management System that performs CRUD (Create, Read, Update, Delete) operations on employee records. It uses Spring Boot for the backend and React for the frontend, with MySQL as the database.
 
-# Features
+## Features
 
 Add new employees
 
@@ -19,14 +19,14 @@ User authentication and authorization
 
 Tech Stack
 
-# Frontend:
+## Frontend:
 
 React.js
 
 HTML, CSS
 
 
-# Backend:
+## Backend:
 
 Spring Boot (Java)
 
@@ -34,7 +34,7 @@ Spring Data JPA
 
 REST APIs
 
-# Database:
+## Database:
 
 MySQL
 
@@ -42,25 +42,25 @@ Setup Instructions
 
 Backend Setup
 
-# Clone the repository:
+## Clone the repository:
 
 git clone https://github.com/yourusername/EmployeeCrudOperationFullStackProject.git
 
-# Navigate to the backend directory:
+Navigate to the backend directory:
 
 cd backend
 
-# Configure application.properties (MySQL credentials):
+## Configure application.properties (MySQL credentials):
 
 spring.datasource.url=jdbc:mysql://localhost:3306/employeedb
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 
-# Run the application:
+## Run the application:
 
 mvn spring-boot:run
 
-# Frontend Setup
+## Frontend Setup
 
 Navigate to the frontend directory:
 
@@ -74,21 +74,21 @@ Start the React application:
 
 npm start
 
-# API Endpoints
+## API Endpoints
 
-Method              Endpoint                Description
+Method    **          Endpoint         **       Description
 
-GET                 /employees              Get all employees
+GET       **          /employees       **      Get all employees
 
-POST                /employees              Add new employee
+POST      **          /employees       **       Add new employee
 
-GET                 /employees/{id}         Get employee by ID
+GET       **          /employees/{id}  **       Get employee by ID
 
-PUT                 /employees/{id}         Update employee
+PUT       **          /employees/{id}   **      Update employee
 
-DELETE              /employees/{id}         Delete employee
+DELETE     **         /employees/{id}   **      Delete employee
 
-# Future Enhancements
+## Future Enhancements
 
 Implement JWT authentication
 
@@ -96,7 +96,7 @@ Add search and filter functionality
 
 Improve UI with Material UI
 
-# Author
+## Author
 
 Krunal Ivolkar
 
