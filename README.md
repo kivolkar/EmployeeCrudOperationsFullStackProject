@@ -17,7 +17,6 @@ Delete employee records
 
 User authentication and authorization
 
-Tech Stack
 
 ## Frontend:
 
